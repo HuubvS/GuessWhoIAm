@@ -36,27 +36,135 @@ public class GuessWhoIam
 				System.out.println("Is it a man?");
 				answer = br.readLine();
 				
-				if(answer.equals("yes")) {
+				if(answer.equals("yes")) 
+				{
+					System.out.println("Does he wear a hat?");
+					answer = br.readLine();
+					if(answer.equals("yes")) 
+					{
+						System.out.println("Does he have blue eyes?");
+						answer = br.readLine();
+						if(answer.equals("yes")) 
+						{
+							System.out.println("Does he have orange hair?");
+							answer = br.readLine();
+							if(answer.equals("yes")) 
+							{
+								System.out.println("It is Chriss!");
+							}
+							else 
+							{
+								System.out.println("It is Jake!");
+							}
+						}
+						else
+						{
+							System.out.println("It is Jac!");
+						}
+							////////////// 3/15 men done //////////
+					}
+					else 
+					{
+						System.out.println("Does he have a brown skin color?");
+						answer = br.readLine();
+						if(answer.equals("yes")) 
+						{
+							System.out.println("Is he bald?");
+							answer = br.readLine();
+							if(answer.equals("yes")) 
+							{
+								System.out.println("It is Sam!");
+							}
+							else 
+							{
+								System.out.println("Does he wear glasses?");
+								answer = br.readLine();
+								if(answer.equals("yes")) 
+								{
+									System.out.println("It is Mark!");
+								}
+								else 
+								{
+									System.out.println("does he have a facial beard?");
+									answer = br.readLine();
+									if(answer.equals("yes")) 
+									{
+										System.out.println("It is Bob!");
+									}
+									else
+									{
+										System.out.println("It is Tupp!");
+									}
+								}
+							}
+						}
+								////////////// 8/15 men done //////////
+						
+						else
+						{
+							System.out.println("Does he have blue eyes?");
+							answer = br.readLine();
+							if(answer.equals("yes")) 
+							{
+								System.out.println("Does he have a facial beard?");
+								answer = br.readLine();
+								if(answer.equals("yes"))
+								{
+									System.out.println("Does he wear glasses?");
+									answer = br.readLine();
+									if(answer.equals("yes"))
+									{
+										System.out.println("It is Nick!");
+									}
+									else
+									{
+										System.out.println("It is Harry!");
+									}
+								}
+								else 
+								{
+									System.out.println("It is Larry!");
+								}
+							}
+								////////////// 11/15 men done //////////
+							
+							else 
+							{
+								System.out.println("Does he have blond hair?");
+								answer = br.readLine();
+								if(answer.equals("yes")) 
+								{
+									System.out.println("It is Will!");
+								}
+								else 
+								{
+									System.out.println("Is he bald?");
+									answer = br.readLine();
+									if(answer.equals("yes")) 
+									{
+										System.out.println("Does he have facial hair?");
+										answer = br.readLine();
+										if(answer.equals("yes")) 
+										{
+											System.out.println("It is Josh!");
+										}
+										else 
+										{
+											System.out.println("It is Art!");
+										}
+									}
+									else 
+									{
+										System.out.println("It is Kevin!");
+									}
+								}
+								
+								///// ART , JOSH, WILL & KEVIN NEEDS TO BE CHECK!
+							}
+						}
+					}
 					
 				}
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 				
 				
 			/////////////////// LADIES SECTION //////////////////////
