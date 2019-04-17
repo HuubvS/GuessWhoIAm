@@ -132,7 +132,8 @@ public class GuessWhoIam
 							{
 								System.out.println("Does he have blond hair?");
 								answer = br.readLine();
-								if(answer.equals("yes")) 
+								if(answer.equals("yes"))
+									// needs to be changed, because it could be Jac too.
 								{
 									System.out.println("It is Will!");
 								}
@@ -157,13 +158,11 @@ public class GuessWhoIam
 									{
 										System.out.println("It is Kevin!");
 									}
-								}
-								
-								///// ART , JOSH, WILL & KEVIN NEEDS TO BE CHECK!
+									// code need to stop here!
+								}	
 							}
 						}
-					}
-					
+					}	
 				}
 				
 				
