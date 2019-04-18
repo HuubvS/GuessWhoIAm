@@ -167,8 +167,7 @@ public class GuessWhoIam
 				
 				
 			/////////////////// LADIES SECTION //////////////////////
-		
-				if(answer.equals("no")) 
+				else if(answer.equals("no")) 
 				{
 					System.out.println("Does she wear a hat?");
 					answer = br.readLine();
