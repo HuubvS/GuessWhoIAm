@@ -12,4 +12,9 @@ both section men and woman are uploaded, still need to check if the men section 
 update: 17-04
 
 both section works properely, still need to check if all person can be match accordingly with the statement implemented into the program. 
-already discovered a mistake in the men section, see description. After that i  need to see if i can implement the file images into java.
+already discovered a mistake in the men section, see description. After that i need to see if i can implement the file images into java.
+
+update: 22-04
+
+See draft two(notebook), might rechange the whole model later on,
+for now this project is on hold.
